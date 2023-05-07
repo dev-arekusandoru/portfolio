@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -22,6 +24,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     colors: {
+      ...colors,
       bone: "#D7D9CE",
       lightgreen: "#6F8C75",
       midgreen: "#4A5E4E",
