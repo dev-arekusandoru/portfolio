@@ -2,7 +2,7 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {},
     screens: {
@@ -31,5 +31,5 @@ module.exports = {
       darkgreen: "#062600",
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };

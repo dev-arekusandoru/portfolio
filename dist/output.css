@@ -557,6 +557,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -573,18 +577,6 @@ video {
   margin-top: 2rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -597,8 +589,8 @@ video {
   height: 50%;
 }
 
-.h-\[30px\] {
-  height: 30px;
+.h-\[25px\] {
+  height: 25px;
 }
 
 .h-\[42px\] {
@@ -615,10 +607,6 @@ video {
 
 .h-auto {
   height: auto;
-}
-
-.h-\[25px\] {
-  height: 25px;
 }
 
 .min-h-\[250px\] {
@@ -645,8 +633,8 @@ video {
   width: 150px;
 }
 
-.w-\[30px\] {
-  width: 30px;
+.w-\[25px\] {
+  width: 25px;
 }
 
 .w-\[75px\] {
@@ -655,14 +643,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[25px\] {
-  width: 25px;
-}
-
-.w-\[35px\] {
-  width: 35px;
 }
 
 .max-w-\[300px\] {
@@ -687,14 +667,6 @@ video {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
-}
-
-.items-start {
-  align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {
@@ -776,6 +748,11 @@ video {
   background-color: rgb(74 94 78 / var(--tw-bg-opacity));
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -786,16 +763,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -804,12 +771,12 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-center {
@@ -910,6 +877,15 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .autofill\:bg-bone:-webkit-autofill {
   --tw-bg-opacity: 1;
   background-color: rgb(215 217 206 / var(--tw-bg-opacity));
@@ -918,16 +894,6 @@ video {
 .autofill\:bg-bone:autofill {
   --tw-bg-opacity: 1;
   background-color: rgb(215 217 206 / var(--tw-bg-opacity));
-}
-
-.autofill\:shadow-bone:-webkit-autofill {
-  --tw-shadow-color: #D7D9CE;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.autofill\:shadow-bone:autofill {
-  --tw-shadow-color: #D7D9CE;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .hover\:cursor-pointer:hover {
@@ -1088,10 +1054,6 @@ video {
 
   .lg\:ml-10 {
     margin-left: 2.5rem;
-  }
-
-  .lg\:ml-2 {
-    margin-left: 0.5rem;
   }
 
   .lg\:ml-6 {
