@@ -20,7 +20,7 @@ module.exports = {
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      "2xl": "1536px",
+      "2xl": "1536px"
       // => @media (min-width: 1536px) { ... }
     },
     colors: {
@@ -28,8 +28,8 @@ module.exports = {
       bone: "#D7D9CE",
       lightgreen: "#6F8C75",
       midgreen: "#4A5E4E",
-      darkgreen: "#062600",
-    },
+      darkgreen: "#062600"
+    }
   },
-  plugins: [require("tailwind-scrollbar-hide")],
+  plugins: [require("tailwind-scrollbar-hide")]
 };
