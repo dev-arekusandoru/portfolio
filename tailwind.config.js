@@ -26,9 +26,12 @@ module.exports = {
 		colors: {
 			...colors,
 			bone: '#fff7eb',
-			lightgreen: '#baa89b',
-			midgreen: '#b0896a',
-			darkgreen: '#DC965A'
+			// lightgreen: '#baa89b',
+			// midgreen: '#b0896a',
+			// darkgreen: '#DC965A'
+			lightgreen: '#9d6e4c',
+			midgreen: '#534439',
+			darkgreen: '#fb923c'
 		}
 	},
 	plugins: [require('tailwind-scrollbar-hide')]
