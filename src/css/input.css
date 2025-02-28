@@ -342,10 +342,10 @@
   --color-blue-gray-900: #0f172a;
   --color-blue-gray-950: #020617;
 
-  --color-bone: #fff7eb;
-  --color-lightgreen: #9d6e4c;
-  --color-midgreen: #534439;
-  --color-darkgreen: #fb923c;
+  --color-bone: #FDF7F4;
+  --color-tertiary: #997C70;
+  --color-primary: #685752;
+  --color-secondary: #8EB486;
 }
 
 /*
